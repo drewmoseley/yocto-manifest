@@ -31,6 +31,8 @@
   <project name="resin-io/meta-resin.git" path="meta-resin" remote="github" />
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" />
   <project name="bmwcarit/meta-ros.git" path="meta-ros" remote="github" />
-
+  <project name="kraj/meta-openwrt.git" path="meta-openwrt" remote="github" revision="master" />
+  <project name="meta-maker.git" path="meta-maker" remote="yocto" />
+  
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>
 </manifest>

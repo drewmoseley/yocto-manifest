@@ -5,4 +5,7 @@
 
   <remove-project name="meta-udoo.git" />
   <project name="meta-udoo.git" path="meta-udoo" revision="wip-master" remote="drewmoseley"/>
+
+  <remove-project name="poky.git" />
+  <project name="poky.git" path="poky" revision="master" remote="mender" />
 </manifest>

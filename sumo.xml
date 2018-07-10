@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="base.xml" />
+  <default revision="sumo" />
+
+  <remove-project name="meta-udoo.git" />
+  <project name="meta-udoo.git" path="meta-udoo" revision="wip-master" remote="drewmoseley"/>
+
+  <remove-project name="meta-chip.git" />
+  <project name="meta-chip.git" path="meta-chip" revision="master" remote="andrei" />
+
+  <remove-project name="meta-sunxi.git" />
+  <project name="meta-sunxi.git" path="meta-sunxi" revision="master" remote="linux-sunxi" />
+
+
+  <remove-project name="resin-io/meta-resin.git" />
+  <project name="resin-io/meta-resin.git" path="meta-resin" revision="master" remote="github" />
+
+  <remove-project name="bmwcarit/meta-ros.git" />
+  <project name="bmwcarit/meta-ros.git" path="meta-ros" revision="master" remote="github" />
+</manifest>

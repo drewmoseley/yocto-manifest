@@ -2,7 +2,4 @@
 <manifest>
   <include name="base.xml" />
   <default revision="master" />
-
-  <remove-project name="meta-udoo.git" />
-  <project name="meta-udoo.git" path="meta-udoo" revision="wip-master" remote="drewmoseley"/>
 </manifest>

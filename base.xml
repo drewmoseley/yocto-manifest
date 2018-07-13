@@ -19,7 +19,7 @@
   <project name="meta-sunxi.git" path="meta-sunxi" remote="linux-sunxi" />
 
   <project name="meta-freescale.git" path="meta-freescale" remote="yocto"/>
-  <project name="meta-udoo.git" path="meta-udoo" remote="graugans"/>
+  <project name="meta-udoo.git" path="meta-udoo" remote="drewmoseley"/>
   <project name="meta-freescale-distro.git" path="meta-freescale-distro" remote="freescale"/>
   <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale"/>
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" remote="toradex"/>

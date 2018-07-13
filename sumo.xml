@@ -3,9 +3,6 @@
   <include name="base.xml" />
   <default revision="sumo" />
 
-  <remove-project name="meta-udoo.git" />
-  <project name="meta-udoo.git" path="meta-udoo" revision="wip-master" remote="drewmoseley"/>
-
   <remove-project name="meta-chip.git" />
   <project name="meta-chip.git" path="meta-chip" revision="master" remote="andrei" />
 

@@ -34,6 +34,7 @@
   <project name="kraj/meta-openwrt.git" path="meta-openwrt" remote="github" revision="master" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" />
   <project name="intel-iot-devkit/meta-iot-cloud.git" path="meta-iot-cloud" remote="github" />
-  
+
+  <project name="mirzak/meta-mender-community.git" path="meta-mender-community" remote="github" />
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>
 </manifest>

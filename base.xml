@@ -37,7 +37,9 @@
   <project name="meta-maker.git" path="meta-maker" remote="yocto" />
   <project name="meta-java.git" path="meta-java" remote="yocto" />
   <project name="intel-iot-devkit/meta-iot-cloud.git" path="meta-iot-cloud" remote="github" />
-  <project name="Kcr19/meta-gcp-iot.git" path="meta-gcp-iot" remote="github" revision="master" />
+  <project name="Kcr19/mender_gcp_ota_demo.git" path="mender_gcp_ota_demo" remote="github" revision="mender-gcp">
+    <linkfile dest="meta-gcp-iot" src="image/meta-gcp-iot" />
+  </project>
 
   <project name="mirzak/meta-mender-community.git" path="meta-mender-community" remote="github" />
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>

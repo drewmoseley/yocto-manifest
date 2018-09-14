@@ -18,6 +18,5 @@
   # No morty branch in meta-maker. Just remove it. No need to try and get a different branch working.
   <remove-project name="meta-maker.git" />
 
-  <remove-project name="mirzak/meta-mender-community.git" />
   <remove-project name="meta-hosted-mender-login.git" />
 </manifest>

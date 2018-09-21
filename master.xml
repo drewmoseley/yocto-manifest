@@ -2,4 +2,5 @@
 <manifest>
   <include name="base.xml" />
   <default revision="master" />
+  <remove-project name="mirzak/meta-mender-community.git" />
 </manifest>

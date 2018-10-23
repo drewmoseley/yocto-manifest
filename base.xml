@@ -42,6 +42,6 @@
     <linkfile dest="meta-gcp-iot" src="tutorials/mender_gcp_ota_demo/image/meta-gcp-iot" />
   </project>
 
-  <project name="mirzak/meta-mender-community.git" path="meta-mender-community" remote="github" />
+  <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" />
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>
 </manifest>

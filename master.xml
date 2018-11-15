@@ -2,4 +2,7 @@
 <manifest>
   <include name="base.xml" />
   <default revision="master" />
+
+  <remove-project name="meta-mender-community.git" />
+  <project name="meta-mender-community.git" path="meta-mender-community" revision="sumo" remote="mender" />
 </manifest>

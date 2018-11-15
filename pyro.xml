@@ -23,6 +23,6 @@
   <remove-project name="bmwcarit/meta-ros.git" />
   <project name="bmwcarit/meta-ros.git" path="meta-ros" revision="master" remote="github" />
 
-  <remove-project name="mirzak/meta-mender-community.git" />
+  <remove-project name="meta-mender-community.git" />
   <remove-project name="meta-hosted-mender-login.git" />
 </manifest>

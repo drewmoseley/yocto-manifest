@@ -6,9 +6,6 @@
   <remove-project name="meta-chip.git" />
   <project name="meta-chip.git" path="meta-chip" revision="master" remote="andrei" />
 
-  <remove-project name="meta-sunxi.git" />
-  <project name="meta-sunxi.git" path="meta-sunxi" revision="master" remote="linux-sunxi" />
-
   <remove-project name="meta-toradex-bsp-common.git" />
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="master" remote="toradex"/>
 

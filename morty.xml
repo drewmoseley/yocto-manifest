@@ -6,7 +6,7 @@
   <project name="mem/oe-meta-go.git" path="oe-meta-go" revision="master" remote="github" />
 
   <remove-project name="meta-chip.git" />
-  <project name="meta-chip.git" path="meta-chip" revision="wip-pyro" remote="drewmoseley" />
+  <project name="meta-chip.git" path="meta-chip" revision="wip-morty" remote="drewmoseley" />
 
 
   <remove-project name="resin-io/meta-resin.git" />

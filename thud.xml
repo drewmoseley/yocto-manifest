@@ -14,8 +14,4 @@
 
   <remove-project name="meta-amd.git" />
   <project name="meta-amd.git" path="meta-amd" revision="master" remote="yocto" />
-
-
-  <remove-project name="bmwcarit/meta-ros.git" />
-  <project name="bmwcarit/meta-ros.git" path="meta-ros" revision="master" remote="github" />
 </manifest>

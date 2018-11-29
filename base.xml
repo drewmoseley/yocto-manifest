@@ -32,7 +32,7 @@
   <project name="meta-hosted-mender-login.git" path="meta-hosted-mender-login" remote="mender" revision="master" />
 
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" />
-  <project name="bmwcarit/meta-ros.git" path="meta-ros" remote="github" />
+  <project name="bmwcarit/meta-ros.git" path="meta-ros" remote="github" revision="master" />
   <project name="kraj/meta-openwrt.git" path="meta-openwrt" remote="github" revision="master" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" />
   <project name="meta-java.git" path="meta-java" remote="yocto" />

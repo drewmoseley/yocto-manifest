@@ -6,6 +6,21 @@
   <remove-project name="meta-chip.git" />
   <project name="meta-chip.git" path="meta-chip" revision="wip-thud" remote="drewmoseley" />
 
+  <remove-project name="meta-mender-community.git" />
+  <project name="meta-mender-community.git" path="meta-mender-community" revision="sumo" remote="mender" />
+
+  <remove-project name="meta-java.git" />
+  <project name="meta-java.git" path="meta-java" revision="master" remote="yocto" />
+
+  <remove-project name="meta-freescale-3rdparty.git" />
+  <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" revision="master" remote="freescale"/>
+
+  <remove-project name="meta-freescale.git" />
+  <project name="meta-freescale.git" path="meta-freescale" revision="master" remote="freescale"/>
+
+  <remove-project name="meta-freescale-distro.git" />
+  <project name="meta-freescale-distro.git" path="meta-freescale-distro" revision="master" remote="freescale"/>
+
   <remove-project name="meta-toradex-bsp-common.git" />
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="master" remote="toradex"/>
 
@@ -14,4 +29,7 @@
 
   <remove-project name="meta-amd.git" />
   <project name="meta-amd.git" path="meta-amd" revision="master" remote="yocto" />
+
+  <remove-project name="meta-maker.git" />
+  <project name="meta-maker.git" path="meta-maker" revision="master" remote="yocto" />
 </manifest>

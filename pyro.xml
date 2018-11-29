@@ -17,9 +17,6 @@
   <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="morty" remote="toradex"/>
 
 
-  <remove-project name="resin-io/meta-resin.git" />
-  <project name="resin-io/meta-resin.git" path="meta-resin" revision="master" remote="github" />
-
   <remove-project name="bmwcarit/meta-ros.git" />
   <project name="bmwcarit/meta-ros.git" path="meta-ros" revision="master" remote="github" />
 

@@ -16,7 +16,7 @@
   <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="rocko-next" remote="toradex"/>
 
   <remove-project name="meta-amd.git" />
-  <project name="meta-amd.git" path="meta-amd" revision="master" remote="yocto" />
+  <project name="meta-amd.git" path="meta-amd" revision="sumo" remote="yocto" />
 
 
   <remove-project name="resin-io/meta-resin.git" />

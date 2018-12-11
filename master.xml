@@ -7,5 +7,5 @@
   <project name="meta-chip.git" path="meta-chip" revision="wip-master" remote="drewmoseley" />
 
   <remove-project name="meta-mender-community.git" />
-  <project name="meta-mender-community.git" path="meta-mender-community" revision="sumo" remote="mender" />
+  <project name="meta-mender-community.git" path="meta-mender-community" revision="thud" remote="mender" />
 </manifest>

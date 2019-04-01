@@ -31,6 +31,8 @@
   <project name="meta-mender.git" path="meta-mender" remote="mender" />
   <project name="meta-hosted-mender-login.git" path="meta-hosted-mender-login" remote="mender" revision="master" />
 
+  <project name="meta-rust/meta-rust.git" path="meta-rust" remote="github" />
+
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" />
   <project name="bmwcarit/meta-ros.git" path="meta-ros" remote="github" revision="master" />
   <project name="kraj/meta-openwrt.git" path="meta-openwrt" remote="github" revision="master" />

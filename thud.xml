@@ -3,6 +3,9 @@
   <include name="base.xml" />
   <default revision="thud" />
 
+  <remove-project name="meta-rust/meta-rust.git" />
+  <project name="meta-rust/meta-rust.git" path="meta-rust" revision="master" remote="github" />
+
   <remove-project name="meta-chip.git" />
   <project name="meta-chip.git" path="meta-chip" revision="wip-thud" remote="drewmoseley" />
 

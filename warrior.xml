@@ -10,7 +10,7 @@
   <project name="meta-chip.git" path="meta-chip" revision="wip-warrior" remote="drewmoseley" />
 
   <remove-project name="meta-toradex-bsp-common.git" />
-  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="thud-next" remote="toradex"/>
+  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="warrior-next" remote="toradex"/>
 
   <remove-project name="meta-toradex-nxp.git" />
   <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="thud-next" remote="toradex"/>
@@ -18,14 +18,8 @@
   <remove-project name="meta-amd.git" />
   <project name="meta-amd.git" path="meta-amd" revision="master" remote="yocto" />
 
-  <remove-project name="intel-iot-devkit/meta-iot-cloud.git" />
-  <project name="intel-iot-devkit/meta-iot-cloud.git" path="meta-iot-cloud" remote="github" revision="master"/>
-
   <remove-project name="meta-sunxi.git" />
   <project name="meta-sunxi.git" path="meta-sunxi" remote="linux-sunxi" revision="master"/>
-
-  <remove-project name="meta-raspberrypi.git" />
-  <project name="meta-raspberrypi.git" path="meta-raspberrypi" remote="yocto" revision="master"/>
 
   <remove-project name="meta-mender-community.git" />
   <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" revision="thud"/>

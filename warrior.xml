@@ -29,4 +29,7 @@
 
   <remove-project name="meta-maker.git" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="master"/>
+
+  <remove-project name="meta-up-board.git" />
+  <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="sumo" />
 </manifest>

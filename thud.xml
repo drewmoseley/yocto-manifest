@@ -17,4 +17,7 @@
 
   <remove-project name="meta-amd.git" />
   <project name="meta-amd.git" path="meta-amd" revision="master" remote="yocto" />
+
+  <remove-project name="meta-up-board.git" />
+  <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="sumo" />
 </manifest>

@@ -8,4 +8,11 @@
 
   <remove-project name="meta-mender-community.git" />
   <project name="meta-mender-community.git" path="meta-mender-community" revision="thud" remote="mender" />
+
+  <remove-project name="meta-toradex-bsp-common.git" />
+  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="warrior-next" remote="toradex"/>
+
+  <remove-project name="meta-toradex-nxp.git" />
+  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="thud-next" remote="toradex"/>
+
 </manifest>

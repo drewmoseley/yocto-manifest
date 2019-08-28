@@ -18,6 +18,8 @@
 
   <project name="meta-up-board.git" path="meta-up-board" remote="emutex" />
 
+  <project name="TechNexion/meta-edm-bsp-release.git" path="meta-edm-bsp-release" remote="github" />
+
   <project name="meta-chip.git" path="meta-chip" remote="andrei" />
   <project name="meta-sunxi.git" path="meta-sunxi" remote="linux-sunxi" />
 

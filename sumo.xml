@@ -11,4 +11,7 @@
 
   <remove-project name="meta-toradex-nxp.git" />
   <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="rocko-next" remote="toradex"/>
+
+  <remove-project name="TechNexion/meta-edm-bsp-release.git" />
+  <project name="TechNexion/meta-edm-bsp-release.git" path="meta-edm-bsp-release" revision="sumo_4.14.98-2.0.0_GA" remote="github" />
 </manifest>

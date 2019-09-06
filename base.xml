@@ -10,6 +10,7 @@
   <remote fetch="git://git.toradex.com/" name="toradex"/>
   <remote fetch="git://github.com/mendersoftware" name="mender"/>
   <remote fetch="git://github.com/emutex" name="emutex"/>
+  <remote fetch="https://source.codeaurora.org/external/imx" name="imx"/>
 
   <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" />
   <project name="poky.git" path="poky" remote="yocto" />
@@ -17,8 +18,6 @@
   <project name="meta-raspberrypi.git" path="meta-raspberrypi" remote="yocto" />
 
   <project name="meta-up-board.git" path="meta-up-board" remote="emutex" />
-
-  <project name="TechNexion/meta-edm-bsp-release.git" path="meta-edm-bsp-release" remote="github" />
 
   <project name="meta-chip.git" path="meta-chip" remote="andrei" />
   <project name="meta-sunxi.git" path="meta-sunxi" remote="linux-sunxi" />

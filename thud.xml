@@ -21,6 +21,6 @@
   <remove-project name="meta-up-board.git" />
   <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="sumo" />
 
-  <remove-project name="TechNexion/meta-edm-bsp-release.git" />
-  <project name="TechNexion/meta-edm-bsp-release.git" path="meta-edm-bsp-release" revision="sumo_4.14.98-2.0.0_GA" remote="github" />
+  <project name="TechNexion/meta-edm-bsp-release.git" path="meta-edm-bsp-release" revision="thud-4.19.35-1.0.0" remote="github" />
+  <project name="meta-fsl-bsp-release.git" path="meta-fsl-bsp-release" revision="thud-4.19.35-1.0.0" remote="imx" />
 </manifest>

@@ -10,7 +10,6 @@
   <remote fetch="git://git.toradex.com/" name="toradex"/>
   <remote fetch="git://github.com/mendersoftware" name="mender"/>
   <remote fetch="git://github.com/emutex" name="emutex"/>
-  <remote fetch="https://source.codeaurora.org/external/imx" name="imx"/>
 
   <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" />
   <project name="poky.git" path="poky" remote="yocto" />

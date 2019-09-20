@@ -3,9 +3,6 @@
   <include name="base.xml" />
   <default revision="sumo" />
 
-  <remove-project name="meta-chip.git" />
-  <project name="meta-chip.git" path="meta-chip" revision="wip-sumo" remote="drewmoseley" />
-
   <remove-project name="meta-toradex-bsp-common.git" />
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="rocko-next" remote="toradex"/>
 

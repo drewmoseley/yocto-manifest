@@ -3,9 +3,6 @@
   <include name="base.xml" />
   <default revision="master" />
 
-  <remove-project name="meta-chip.git" />
-  <project name="meta-chip.git" path="meta-chip" revision="wip-master" remote="drewmoseley" />
-
   <remove-project name="meta-mender-community.git" />
   <project name="meta-mender-community.git" path="meta-mender-community" revision="thud" remote="mender" />
 

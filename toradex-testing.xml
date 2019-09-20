@@ -6,7 +6,6 @@
   <remote fetch="git://github.com/drewmoseley" name="drewmoseley"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/graugans" name="graugans"/>
-  <remote fetch="https://github.com/linux-sunxi" name="linux-sunxi"/>
   <remote fetch="git://git.toradex.com" name="toradex"/>
   
   <!-- <project name="openembedded/meta-openembedded.git" path="meta-oe" revision="master" remote="github" /> -->

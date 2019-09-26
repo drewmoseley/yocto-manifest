@@ -15,12 +15,6 @@
   <remove-project name="meta-amd.git" />
   <project name="meta-amd.git" path="meta-amd" revision="master" remote="yocto" />
 
-  <remove-project name="meta-mender-community.git" />
-  <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" revision="thud"/>
-
-  <remove-project name="meta-mender.git" />
-  <project name="meta-mender.git" path="meta-mender" remote="mender" revision="master"/>
-
   <remove-project name="meta-maker.git" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="master"/>
 

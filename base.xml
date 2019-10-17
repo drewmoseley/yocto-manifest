@@ -9,6 +9,7 @@
   <remote fetch="git://git.toradex.com/" name="toradex"/>
   <remote fetch="git://github.com/mendersoftware" name="mender"/>
   <remote fetch="git://github.com/emutex" name="emutex"/>
+  <remote fetch="git://code.qt.io/yocto/" name="qt"/>
 
   <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" />
   <project name="poky.git" path="poky" remote="yocto" />
@@ -43,4 +44,6 @@
 
   <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" />
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>
+
+  <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt"/>
 </manifest>

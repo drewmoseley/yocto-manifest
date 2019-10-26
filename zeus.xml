@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="base.xml" />
+  <default revision="zeus" />
+
+  <remove-project name="meta-mender-community.git" />
+  <project name="meta-mender-community.git" path="meta-mender-community" revision="warrior" remote="mender" />
+
+  <remove-project name="meta-mender.git" />
+  <project name="meta-mender.git" path="meta-mender" revision="master" remote="mender" />
+
+  <remove-project name="meta-rust/meta-rust.git" />
+  <project name="meta-rust/meta-rust.git" path="meta-rust" revision="master" remote="github" />
+
+  <remove-project name="meta-toradex-bsp-common.git" />
+  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="warrior-next" remote="toradex"/>
+
+  <remove-project name="meta-toradex-nxp.git" />
+  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="thud-next" remote="toradex"/>
+
+  <remove-project name="meta-raspberrypi.git" />
+  <project name="meta-raspberrypi.git" path="meta-raspberrypi" revision="master" remote="andrei"/>
+
+  <remove-project name="meta-amd.git" />
+  <project name="meta-amd.git" path="meta-amd" revision="warrior" remote="yocto" />
+
+  <remove-project name="meta-maker.git" />
+  <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="master"/>
+
+  <remove-project name="meta-up-board.git" />
+  <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="master" />
+
+  <remove-project name="intel-iot-devkit/meta-iot-cloud.git" />
+  <project name="intel-iot-devkit/meta-iot-cloud.git" path="meta-iot-cloud" revision="master" remote="github" />
+
+  <remove-project name="meta-freescale-distro.git" />
+  <project name="meta-freescale-distro.git" path="meta-freescale-distro" revision="master" remote="freescale"/>
+
+  <remove-project name="meta-freescale-3rdparty.git" />
+  <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" revision="master" remote="freescale"/>
+
+  <remove-project name="meta-freescale.git" />
+  <project name="meta-freescale.git" path="meta-freescale" revision="master" remote="freescale"/>
+
+  <remove-project name="meta-boot2qt.git" />
+
+  <remove-project name="meta-virtualization.git" />
+  <project name="meta-virtualization.git" path="meta-virtualization" revision="master" remote="yocto" />
+
+  <remove-project name="meta-cloud-services.git" />
+  <project name="meta-cloud-services.git" path="meta-cloud-services" revision="master" remote="yocto" />
+
+  <remove-project name="meta-java.git" />
+  <project name="meta-java.git" path="meta-java" revision="warrior" remote="yocto" />
+
+  <project name="TechNexion/meta-edm-bsp-release.git" path="meta-edm-bsp-release" revision="sumo_4.14.98-2.0.0_GA-wip" remote="github" />
+</manifest>

@@ -12,14 +12,11 @@
   <remove-project name="meta-toradex-nxp.git" />
   <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="thud-next" remote="toradex"/>
 
-  <remove-project name="meta-amd.git" />
-  <project name="meta-amd.git" path="meta-amd" revision="master" remote="yocto" />
-
   <remove-project name="meta-maker.git" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="master"/>
 
   <remove-project name="meta-up-board.git" />
-  <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="sumo" />
+  <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="warrior" />
 
   <project name="TechNexion/meta-edm-bsp-release.git" path="meta-edm-bsp-release" revision="sumo_4.14.98-2.0.0_GA-wip" remote="github" />
 </manifest>

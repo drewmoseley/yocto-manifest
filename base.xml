@@ -46,4 +46,6 @@
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>
 
   <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt"/>
+
+  <project name="jiazhang0/meta-secure-core" path="meta-secure-core" remote="github"/>
 </manifest>

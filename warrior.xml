@@ -19,4 +19,7 @@
   <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="warrior" />
 
   <project name="TechNexion/meta-edm-bsp-release.git" path="meta-edm-bsp-release" revision="sumo_4.14.98-2.0.0_GA-wip" remote="github" />
+
+  <remove-project name="jiazhang0/meta-secure-core" />
+  <project name="jiazhang0/meta-secure-core" path="meta-secure-core" remote="github" revision="master"/>
 </manifest>

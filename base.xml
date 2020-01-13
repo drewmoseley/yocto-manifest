@@ -24,6 +24,7 @@
   <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale"/>
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" remote="toradex"/>
   <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" remote="toradex"/>
+  <project name="varigit/meta-variscite-fslc.git" path="meta-variscite-fslc" remote="github" />
 
   <project name="meta-amd.git" path="meta-amd" remote="yocto" />
   <project name="meta-intel.git" path="meta-intel" remote="yocto" />
@@ -46,6 +47,8 @@
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>
 
   <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt"/>
+
+  <project name="sbabic/meta-swupdate.git" path="meta-swupdate" remote="github"/>
 
   <project name="jiazhang0/meta-secure-core" path="meta-secure-core" remote="github"/>
 </manifest>

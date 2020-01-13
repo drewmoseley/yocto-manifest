@@ -22,4 +22,7 @@
 
   <remove-project name="jiazhang0/meta-secure-core" />
   <project name="jiazhang0/meta-secure-core" path="meta-secure-core" remote="github" revision="master"/>
+
+  <remove-project name="varigit/meta-variscite-fslc.git" />
+  <project name="varigit/meta-variscite-fslc.git" path="meta-variscite-fslc" remote="github" revision="thud" />
 </manifest>

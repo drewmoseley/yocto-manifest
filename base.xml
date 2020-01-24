@@ -53,4 +53,7 @@
   <project name="jiazhang0/meta-secure-core" path="meta-secure-core" remote="github"/>
 
   <project name="EmbeddedAndroid/meta-rtlwifi" path="meta-rtlwifi" remote="github" revision="master"/>
+
+  <project name="compulab-yokneam/meta-compulab-bsp.git" path="meta-compulab-bsp" remote="github" revision="devel"/>
+  <project name="compulab-yokneam/meta-compulab.git" path="meta-compulab" remote="github" revision="devel"/>
 </manifest>

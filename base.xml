@@ -51,4 +51,6 @@
   <project name="sbabic/meta-swupdate.git" path="meta-swupdate" remote="github"/>
 
   <project name="jiazhang0/meta-secure-core" path="meta-secure-core" remote="github"/>
+
+  <project name="EmbeddedAndroid/meta-rtlwifi" path="meta-rtlwifi" remote="github" revision="master"/>
 </manifest>

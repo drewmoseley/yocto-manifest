@@ -56,4 +56,6 @@
 
   <project name="compulab-yokneam/meta-compulab-bsp.git" path="meta-compulab-bsp" remote="github" revision="devel"/>
   <project name="compulab-yokneam/meta-compulab.git" path="meta-compulab" remote="github" revision="devel"/>
+
+  <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github"/>
 </manifest>

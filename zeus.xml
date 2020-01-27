@@ -60,4 +60,7 @@
 
   <remove-project name="varigit/meta-variscite-fslc.git" />
   <project name="varigit/meta-variscite-fslc.git" path="meta-variscite-fslc" remote="github" revision="thud" />
+
+  <remove-project name="STMicroelectronics/meta-st-stm32mp" />
+  <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github" revision="master" />
 </manifest>

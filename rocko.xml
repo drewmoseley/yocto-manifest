@@ -17,4 +17,6 @@
   <remove-project name="meta-boot2qt.git" />
 
   <project name="TechNexion/meta-edm-bsp-release.git" path="meta-edm-bsp-release" revision="rocko_4.9.88-2.0.0_GA" remote="github" />
+
+  <remove-project name="STMicroelectronics/meta-st-stm32mp" />
 </manifest>

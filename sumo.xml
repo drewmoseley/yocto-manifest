@@ -12,4 +12,6 @@
   <project name="TechNexion/meta-edm-bsp-release.git" path="meta-edm-bsp-release" revision="sumo_4.14.98-2.0.0_GA-wip" remote="github" />
 
   <remove-project name="STMicroelectronics/meta-st-stm32mp" />
+
+  <remove-project name="OSSystems/meta-browser.git" />
 </manifest>

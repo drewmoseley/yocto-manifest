@@ -51,6 +51,7 @@
   <project name="sbabic/meta-swupdate.git" path="meta-swupdate" remote="github"/>
 
   <project name="OSSystems/meta-browser.git" path="meta-browser" remote="github" revision="master"/>
+  <project name="kraj/meta-clang.git" path="meta-clang" remote="github" />
 
   <project name="jiazhang0/meta-secure-core" path="meta-secure-core" remote="github"/>
 

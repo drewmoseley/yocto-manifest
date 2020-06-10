@@ -17,6 +17,4 @@
 
   <remove-project name="meta-up-board.git" />
   <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="sumo" />
-
-  <project name="TechNexion/meta-edm-bsp-release.git" path="meta-edm-bsp-release" revision="sumo_4.14.98-2.0.0_GA-wip" remote="github" />
 </manifest>

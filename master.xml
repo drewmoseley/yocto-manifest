@@ -4,13 +4,13 @@
   <default revision="master" />
 
   <remove-project name="meta-mender-community.git" />
-  <project name="meta-mender-community.git" path="meta-mender-community" revision="warrior" remote="mender" />
+  <project name="meta-mender-community.git" path="meta-mender-community" revision="zeus-test" remote="mender" />
 
   <remove-project name="meta-toradex-bsp-common.git" />
-  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="warrior-next" remote="toradex"/>
+  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="zeus" remote="toradex"/>
 
   <remove-project name="meta-toradex-nxp.git" />
-  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="thud-next" remote="toradex"/>
+  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="zeus" remote="toradex"/>
 
   <remove-project name="meta-up-board.git" />
   <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="warrior-dev" />

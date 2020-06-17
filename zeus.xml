@@ -6,17 +6,14 @@
   <remove-project name="meta-mender-community.git" />
   <project name="meta-mender-community.git" path="meta-mender-community" revision="zeus-test" remote="mender" />
 
-  <remove-project name="meta-mender.git" />
-  <project name="meta-mender.git" path="meta-mender" revision="zeus-test" remote="mender" />
-
   <remove-project name="meta-rust/meta-rust.git" />
   <project name="meta-rust/meta-rust.git" path="meta-rust" revision="master" remote="github" />
 
   <remove-project name="meta-amd.git" />
-  <project name="meta-amd.git" path="meta-amd" revision="warrior" remote="yocto" />
+  <project name="meta-amd.git" path="meta-amd" revision="master" remote="yocto" />
 
   <remove-project name="meta-maker.git" />
-  <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="master"/>
+  <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
 
   <remove-project name="meta-up-board.git" />
   <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="warrior-dev" />
@@ -26,7 +23,4 @@
 
   <remove-project name="varigit/meta-variscite-fslc.git" />
   <project name="varigit/meta-variscite-fslc.git" path="meta-variscite-fslc" remote="github" revision="thud" />
-
-  <remove-project name="STMicroelectronics/meta-st-stm32mp" />
-  <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github" revision="master" />
 </manifest>

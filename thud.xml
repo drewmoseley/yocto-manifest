@@ -6,14 +6,8 @@
   <remove-project name="meta-rust/meta-rust.git" />
   <project name="meta-rust/meta-rust.git" path="meta-rust" revision="master" remote="github" />
 
-  <remove-project name="meta-toradex-bsp-common.git" />
-  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="thud-next" remote="toradex"/>
-
-  <remove-project name="meta-toradex-nxp.git" />
-  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="thud-next" remote="toradex"/>
-
   <remove-project name="meta-amd.git" />
-  <project name="meta-amd.git" path="meta-amd" revision="master" remote="yocto" />
+  <project name="meta-amd.git" path="meta-amd" revision="warrior" remote="yocto" />
 
   <remove-project name="meta-up-board.git" />
   <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="warrior-dev" />

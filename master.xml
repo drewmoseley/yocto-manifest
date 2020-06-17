@@ -16,7 +16,11 @@
   <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="warrior-dev" />
 
   <remove-project name="meta-boot2qt.git" />
+  <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="zeus"/>
 
   <remove-project name="varigit/meta-variscite-fslc.git" />
   <project name="varigit/meta-variscite-fslc.git" path="meta-variscite-fslc" remote="github" revision="thud" />
+
+  <remove-project name="STMicroelectronics/meta-st-stm32mp" />
+  <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github" revision="zeus" />
 </manifest>

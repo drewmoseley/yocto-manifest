@@ -9,9 +9,6 @@
   <remove-project name="meta-rust/meta-rust.git" />
   <project name="meta-rust/meta-rust.git" path="meta-rust" revision="master" remote="github" />
 
-  <remove-project name="meta-amd.git" />
-  <project name="meta-amd.git" path="meta-amd" revision="master" remote="yocto" />
-
   <remove-project name="meta-maker.git" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
 

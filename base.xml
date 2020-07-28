@@ -26,7 +26,6 @@
   <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" remote="toradex"/>
   <project name="varigit/meta-variscite-fslc.git" path="meta-variscite-fslc" remote="github" />
 
-  <project name="meta-amd.git" path="meta-amd" remote="yocto" />
   <project name="meta-intel.git" path="meta-intel" remote="yocto" />
 
   <project name="meta-mender.git" path="meta-mender" remote="mender" />

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="base.xml" />
+  <default revision="dunfell" />
+
+  <remove-project name="meta-mender-community.git" />
+  <project name="meta-mender-community.git" path="meta-mender-community" revision="zeus-test" remote="mender" />
+
+  <remove-project name="meta-rust/meta-rust.git" />
+  <project name="meta-rust/meta-rust.git" path="meta-rust" revision="master" remote="github" />
+
+  <remove-project name="meta-maker.git" />
+  <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
+
+  <remove-project name="meta-up-board.git" />
+  <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="warrior-dev" />
+
+  <remove-project name="jiazhang0/meta-secure-core" />
+  <project name="jiazhang0/meta-secure-core" path="meta-secure-core" remote="github" revision="master"/>
+
+  <remove-project name="meta-boot2qt.git" />
+  <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="zeus"/>
+
+  <remove-project name="varigit/meta-variscite-fslc.git" />
+  <project name="varigit/meta-variscite-fslc.git" path="meta-variscite-fslc" remote="github" revision="thud" />
+</manifest>

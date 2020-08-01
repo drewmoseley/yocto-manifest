@@ -6,6 +6,12 @@
   <remove-project name="meta-mender-community.git" />
   <project name="meta-mender-community.git" path="meta-mender-community" revision="zeus" remote="mender" />
 
+  <remove-project name="meta-toradex-nxp.git" />
+  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="master" remote="toradex" />
+
+  <remove-project name="meta-toradex-bsp-common.git" />
+  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="master" remote="toradex" />
+
   <remove-project name="meta-rust/meta-rust.git" />
   <project name="meta-rust/meta-rust.git" path="meta-rust" revision="master" remote="github" />
 

@@ -3,9 +3,6 @@
   <include name="base.xml" />
   <default revision="zeus" />
 
-  <remove-project name="meta-mender-community.git" />
-  <project name="meta-mender-community.git" path="meta-mender-community" revision="zeus-test" remote="mender" />
-
   <remove-project name="meta-rust/meta-rust.git" />
   <project name="meta-rust/meta-rust.git" path="meta-rust" revision="master" remote="github" />
 

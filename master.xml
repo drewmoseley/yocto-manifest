@@ -4,7 +4,7 @@
   <default revision="master" />
 
   <remove-project name="meta-mender-community.git" />
-  <project name="meta-mender-community.git" path="meta-mender-community" revision="zeus-test" remote="mender" />
+  <project name="meta-mender-community.git" path="meta-mender-community" revision="zeus" remote="mender" />
 
   <remove-project name="meta-up-board.git" />
   <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="warrior-dev" />

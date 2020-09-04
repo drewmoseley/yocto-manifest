@@ -3,9 +3,6 @@
   <include name="base.xml" />
   <default revision="dunfell" />
 
-  <remove-project name="meta-mender-community.git" />
-  <project name="meta-mender-community.git" path="meta-mender-community" revision="zeus" remote="mender" />
-
   <remove-project name="meta-toradex-nxp.git" />
   <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="master" remote="toradex" />
 

@@ -24,6 +24,6 @@
   <remove-project name="meta-boot2qt.git" />
   <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="zeus"/>
 
-  <remove-project name="varigit/meta-variscite-fslc.git" />
-  <project name="varigit/meta-variscite-fslc.git" path="meta-variscite-fslc" remote="github" revision="thud" />
+  <remove-project name="varigit/meta-variscite-imx.git" />
+  <project name="varigit/meta-variscite-imx.git" path="meta-variscite-imx" remote="github" revision="zeus-imx-5.4.24-var01" />
 </manifest>

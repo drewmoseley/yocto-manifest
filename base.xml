@@ -24,7 +24,7 @@
   <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale"/>
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" remote="toradex"/>
   <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" remote="toradex"/>
-  <project name="varigit/meta-variscite-fslc.git" path="meta-variscite-fslc" remote="github" />
+  <project name="varigit/meta-variscite-imx.git" path="meta-variscite-imx" remote="github" />
 
   <project name="meta-intel.git" path="meta-intel" remote="yocto" />
 

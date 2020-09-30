@@ -16,5 +16,5 @@
   <project name="jiazhang0/meta-secure-core" path="meta-secure-core" remote="github" revision="master"/>
 
   <remove-project name="varigit/meta-variscite-imx.git" />
-  <project name="varigit/meta-variscite-imx.git" path="meta-variscite-imx" remote="github" revision="zeus-imx-5.4.24-var01" />
+  <project name="varigit/meta-variscite-imx.git" path="meta-variscite-imx" remote="github" revision="zeus-imx-5.4.3-var01" />
 </manifest>

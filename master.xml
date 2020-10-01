@@ -19,9 +19,7 @@
   <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="zeus"/>
 
   <remove-project name="varigit/meta-variscite-imx.git" />
-  <project name="varigit/meta-variscite-imx.git" path="meta-variscite-imx" remote="github" revision="zeus-imx-5.4.3-var01" />
 
   <remove-project name="STMicroelectronics/meta-st-stm32mp" />
   <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github" revision="dunfell" />
-  <project name="imx/meta-imx.git" path="meta-imx" remote="codeaurora" revision="435f5e984856a943986491fddd061734a0b9eba5" />
 </manifest>

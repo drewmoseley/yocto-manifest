@@ -12,7 +12,7 @@
   <remote fetch="git://code.qt.io/yocto/" name="qt"/>
   <remote fetch="https://source.codeaurora.org/external/" name="codeaurora"/>
 
-  <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" />
+  <project name="openembedded/meta-openembedded.git" path="meta-openembedded" remote="github"/>
   <project name="poky.git" path="poky" remote="yocto" />
 
   <project name="meta-raspberrypi.git" path="meta-raspberrypi" remote="yocto" />

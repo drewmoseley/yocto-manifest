@@ -4,10 +4,10 @@
   <default revision="dunfell" />
 
   <remove-project name="meta-toradex-nxp.git" />
-  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="master" remote="toradex" />
+  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="dunfell-5.x.y" remote="toradex" />
 
   <remove-project name="meta-toradex-bsp-common.git" />
-  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="master" remote="toradex" />
+  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="dunfell-5.x.y" remote="toradex" />
 
   <remove-project name="meta-rust/meta-rust.git" />
   <project name="meta-rust/meta-rust.git" path="meta-rust" revision="master" remote="github" />
@@ -15,14 +15,9 @@
   <remove-project name="meta-maker.git" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
 
-  <remove-project name="meta-up-board.git" />
-  <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="warrior-dev" />
-
   <remove-project name="jiazhang0/meta-secure-core" />
   <project name="jiazhang0/meta-secure-core" path="meta-secure-core" remote="github" revision="master"/>
 
   <remove-project name="meta-boot2qt.git" />
   <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="zeus"/>
-
-  <remove-project name="varigit/meta-variscite-imx.git" />
 </manifest>

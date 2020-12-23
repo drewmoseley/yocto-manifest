@@ -3,20 +3,12 @@
   <include name="base.xml" />
   <default revision="master" />
 
-  <remove-project name="meta-mender-community.git" />
-  <project name="meta-mender-community.git" path="meta-mender-community" revision="dunfell" remote="mender" />
-
-  <remove-project name="meta-up-board.git" />
-  <project name="meta-up-board.git" path="meta-up-board" remote="emutex" revision="warrior-dev" />
-
   <remove-project name="meta-maker.git" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
 
   <remove-project name="meta-boot2qt.git" />
   <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="zeus"/>
 
-  <remove-project name="varigit/meta-variscite-imx.git" />
-
   <remove-project name="STMicroelectronics/meta-st-stm32mp" />
-  <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github" revision="dunfell" />
+  <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github" revision="gatesgarth" />
 </manifest>

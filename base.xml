@@ -2,13 +2,10 @@
 <manifest>
   <remote fetch="git://git.yoctoproject.org/" name="yocto" />
   <remote fetch="git://github.com/" name="github" />
-  <remote fetch="https://github.com/agherzan" name="andrei"/>
   <remote fetch="git://github.com/drewmoseley" name="drewmoseley"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
-  <remote fetch="https://github.com/graugans" name="graugans"/>
   <remote fetch="git://git.toradex.com/" name="toradex"/>
   <remote fetch="git://github.com/mendersoftware" name="mender"/>
-  <remote fetch="git://github.com/emutex" name="emutex"/>
   <remote fetch="git://code.qt.io/yocto/" name="qt"/>
   <remote fetch="https://source.codeaurora.org/external/" name="codeaurora"/>
 
@@ -17,20 +14,15 @@
 
   <project name="meta-raspberrypi.git" path="meta-raspberrypi" remote="yocto" />
 
-  <project name="meta-up-board.git" path="meta-up-board" remote="emutex" />
-
   <project name="meta-freescale.git" path="meta-freescale" remote="yocto"/>
-  <project name="meta-udoo.git" path="meta-udoo" remote="drewmoseley"/>
   <project name="meta-freescale-distro.git" path="meta-freescale-distro" remote="freescale"/>
   <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale"/>
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" remote="toradex"/>
   <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" remote="toradex"/>
-  <project name="varigit/meta-variscite-imx.git" path="meta-variscite-imx" remote="github" />
 
   <project name="meta-intel.git" path="meta-intel" remote="yocto" />
 
   <project name="meta-mender.git" path="meta-mender" remote="mender" />
-  <project name="meta-hosted-mender-login.git" path="meta-hosted-mender-login" remote="mender" revision="master" />
 
   <project name="meta-rust/meta-rust.git" path="meta-rust" remote="github" />
 
@@ -55,11 +47,6 @@
   <project name="kraj/meta-clang.git" path="meta-clang" remote="github" />
 
   <project name="jiazhang0/meta-secure-core" path="meta-secure-core" remote="github"/>
-
-  <project name="EmbeddedAndroid/meta-rtlwifi" path="meta-rtlwifi" remote="github" revision="master"/>
-
-  <project name="compulab-yokneam/meta-compulab-bsp.git" path="meta-compulab-bsp" remote="github" revision="devel"/>
-  <project name="compulab-yokneam/meta-compulab.git" path="meta-compulab" remote="github" revision="devel"/>
 
   <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github"/>
 </manifest>

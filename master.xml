@@ -3,6 +3,9 @@
   <include name="base.xml" />
   <default revision="master" />
 
+  <remove-project name="meta-mender-community.git" />
+  <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" revision="dunfell"/>
+
   <remove-project name="meta-maker.git" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
 

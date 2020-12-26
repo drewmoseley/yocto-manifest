@@ -49,4 +49,5 @@
   <project name="jiazhang0/meta-secure-core" path="meta-secure-core" remote="github"/>
 
   <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github"/>
+  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github"/>
 </manifest>

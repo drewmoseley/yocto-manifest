@@ -50,4 +50,6 @@
 
   <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github"/>
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github"/>
+
+  <project name="toradex/meta-toradex-torizon.git" path="meta-toradex-torizon" remote="github"/>
 </manifest>

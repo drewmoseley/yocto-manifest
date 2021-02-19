@@ -20,4 +20,7 @@
 
   <remove-project name="meta-boot2qt.git" />
   <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="zeus"/>
+
+  <remove-project name="toradex/meta-toradex-torizon.git" />
+  <project name="toradex/meta-toradex-torizon.git" path="meta-toradex-torizon" remote="github" revision="dunfell-5.x.y" />
 </manifest>

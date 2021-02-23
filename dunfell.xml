@@ -23,4 +23,7 @@
 
   <remove-project name="toradex/meta-toradex-torizon.git" />
   <project name="toradex/meta-toradex-torizon.git" path="meta-toradex-torizon" remote="github" revision="dunfell-5.x.y" />
+
+  <remove-project name="toradex/meta-toradex-distro.git" />
+  <project name="toradex/meta-toradex-distro.git" path="meta-toradex-distro" remote="tdx" revision="dunfell-5.x.y" />
 </manifest>

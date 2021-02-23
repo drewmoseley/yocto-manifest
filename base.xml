@@ -8,6 +8,7 @@
   <remote fetch="git://github.com/mendersoftware" name="mender"/>
   <remote fetch="git://code.qt.io/yocto/" name="qt"/>
   <remote fetch="https://source.codeaurora.org/external/" name="codeaurora"/>
+  <remote fetch="git://git.toradex.com" name="tdx"/>
 
   <project name="openembedded/meta-openembedded.git" path="meta-openembedded" remote="github"/>
   <project name="poky.git" path="poky" remote="yocto" />
@@ -52,6 +53,8 @@
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github"/>
 
   <project name="toradex/meta-toradex-torizon.git" path="meta-toradex-torizon" remote="github"/>
+  <project name="toradex/meta-toradex-distro.git" path="meta-toradex-distro" remote="tdx"/>
+  <project name="foundriesio/meta-lmp.git" path="meta-lmp" remote="github"/>
 
   <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github"/>
 </manifest>

@@ -53,7 +53,7 @@
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github"/>
 
   <project name="toradex/meta-toradex-torizon.git" path="meta-toradex-torizon" remote="github"/>
-  <project name="toradex/meta-toradex-distro.git" path="meta-toradex-distro" remote="tdx"/>
+  <project name="meta-toradex-distro.git" path="meta-toradex-distro" remote="tdx"/>
   <project name="foundriesio/meta-lmp.git" path="meta-lmp" remote="github"/>
 
   <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github"/>

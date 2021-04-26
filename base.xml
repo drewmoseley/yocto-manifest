@@ -23,6 +23,8 @@
 
   <project name="meta-intel.git" path="meta-intel" remote="yocto" />
 
+  <project name="linux-sunxi/meta-sunxi.git" path="meta-sunxi" remote="github" />
+
   <project name="riscv/meta-riscv.git" path="meta-riscv" remote="github" />
 
   <project name="meta-mender.git" path="meta-mender" remote="mender" />

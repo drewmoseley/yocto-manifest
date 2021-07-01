@@ -36,15 +36,6 @@
   <remove-project name="meta-java.git" />
   <project name="meta-java.git" path="meta-java" remote="yocto" revision="master" />
 
-  <remove-project name="foundriesio/meta-lmp.git" />
-  <project name="foundriesio/meta-lmp.git" path="meta-lmp" remote="github" revision="master"/>
-  
-  <remove-project name="meta-raspberrypi.git" />
-  <project name="meta-raspberrypi.git" path="meta-raspberrypi" remote="yocto" revision="master" />
-
-  <remove-project name="STMicroelectronics/meta-st-stm32mp" />
-  <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github" revision="gatesgarth" />
-
   <remove-project name="advancedtelematic/meta-updater" />
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="master"/>
 

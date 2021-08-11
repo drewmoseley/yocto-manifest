@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch="git://git.yoctoproject.org/" name="yocto" />
   <remote fetch="git://github.com/" name="github" />
+  <remote fetch="git://bitbucket.org/drewmoseley" name="drewmoseley-private"/>
   <remote fetch="git://github.com/drewmoseley" name="drewmoseley"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="git://git.toradex.com/" name="toradex"/>
@@ -43,6 +44,8 @@
 
   <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" />
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>
+  <project name="meta-dmoseley-private.git" path="meta-dmoseley-private" remote="drewmoseley-private"/>
+  <project name="meta-dmoseley-private-local.git" path="meta-dmoseley-private-local" remote="drewmoseley-private"/>
 
   <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt"/>
 

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://git.yoctoproject.org/" name="yocto" />
+  <remote fetch="git://git.openembedded.org/" name="oe" />
   <remote fetch="git://github.com/" name="github" />
   <remote fetch="git://bitbucket.org/drewmoseley" name="drewmoseley-private"/>
   <remote fetch="git://github.com/drewmoseley" name="drewmoseley"/>
@@ -23,6 +24,8 @@
   <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" remote="toradex"/>
 
   <project name="meta-intel.git" path="meta-intel" remote="yocto" />
+
+  <project name="meta-python2.git" path="meta-python2" remote="oe" />
 
   <project name="linux-sunxi/meta-sunxi.git" path="meta-sunxi" remote="github" />
 

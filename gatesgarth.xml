@@ -10,13 +10,13 @@
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="dunfell-5.x.y" remote="toradex" />
 
   <remove-project name="meta-rust/meta-rust.git" />
-  <project name="meta-rust/meta-rust.git" path="meta-rust" revision="master" remote="github" />
+  <project name="meta-rust/meta-rust.git" path="meta-rust" revision="test-dunfell" remote="github" />
 
   <remove-project name="meta-maker.git" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
 
   <remove-project name="meta-boot2qt.git" />
-  <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="6.1"/>
+  <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="6.2.1"/>
 
   <remove-project name="toradex/meta-toradex-torizon.git" />
   <project name="toradex/meta-toradex-torizon.git" path="meta-toradex-torizon" remote="github" revision="dunfell-5.x.y" />
@@ -31,7 +31,7 @@
   <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" revision="dunfell" />
 
   <remove-project name="linux-sunxi/meta-sunxi.git" />
-  <project name="linux-sunxi/meta-sunxi.git" path="meta-sunxi" remote="github" revision="master" />
+  <project name="linux-sunxi/meta-sunxi.git" path="meta-sunxi" remote="github" revision="dunfell" />
 
   <remove-project name="advancedtelematic/meta-updater" />
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="master"/>

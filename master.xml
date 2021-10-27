@@ -10,8 +10,8 @@
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
 
   <remove-project name="meta-boot2qt.git" />
-  <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="zeus"/>
+  <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="6.2.1"/>
 
   <remove-project name="STMicroelectronics/meta-st-stm32mp" />
-  <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github" revision="gatesgarth" />
+  <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github" revision="honister" />
 </manifest>

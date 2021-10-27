@@ -10,7 +10,7 @@
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="dunfell-5.x.y" remote="toradex" />
 
   <remove-project name="meta-rust/meta-rust.git" />
-  <project name="meta-rust/meta-rust.git" path="meta-rust" revision="master" remote="github" />
+  <project name="meta-rust/meta-rust.git" path="meta-rust" revision="test-dunfell" remote="github" />
 
   <remove-project name="meta-maker.git" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
@@ -19,7 +19,7 @@
   <project name="jiazhang0/meta-secure-core" path="meta-secure-core" remote="github" revision="master"/>
 
   <remove-project name="meta-boot2qt.git" />
-  <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="6.1"/>
+  <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="6.2.1"/>
 
   <remove-project name="toradex/meta-toradex-torizon.git" />
   <project name="toradex/meta-toradex-torizon.git" path="meta-toradex-torizon" remote="github" revision="dunfell-5.x.y" />

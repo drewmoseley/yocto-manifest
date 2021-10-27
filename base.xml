@@ -36,6 +36,7 @@
   <project name="meta-rust/meta-rust.git" path="meta-rust" remote="github" />
 
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" />
+  <project name="meta-qt6.git" path="meta-qt6" remote="qt" revision="6.2.1" />
   <project name="bmwcarit/meta-ros.git" path="meta-ros" remote="github" revision="master" />
   <project name="kraj/meta-openwrt.git" path="meta-openwrt" remote="github" revision="master" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" />

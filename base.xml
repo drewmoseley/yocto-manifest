@@ -45,6 +45,7 @@
   <project name="meta-cloud-services.git" path="meta-cloud-services" remote="yocto" />
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" />
   <project name="meta-security.git" path="meta-security" remote="yocto" />
+  <project name="meta-mingw.git" path="meta-mingw" remote="yocto" />
 
   <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" />
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>

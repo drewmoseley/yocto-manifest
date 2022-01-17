@@ -10,7 +10,7 @@
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="dunfell-5.x.y" remote="toradex" />
 
   <remove-project name="meta-rust/meta-rust.git" />
-  <project name="meta-rust/meta-rust.git" path="meta-rust" revision="test-dunfell" remote="github" />
+  <project name="meta-rust/meta-rust.git" path="meta-rust" revision="master" remote="github" />
 
   <remove-project name="meta-maker.git" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
@@ -33,29 +33,14 @@
   <remove-project name="meta-mender-community.git" />
   <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" revision="dunfell" />
 
-  <remove-project name="meta-java.git" />
-  <project name="meta-java.git" path="meta-java" remote="yocto" revision="master" />
-
   <remove-project name="advancedtelematic/meta-updater" />
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="master"/>
-
-  <remove-project name="meta-cloud-services.git" />
-  <project name="meta-cloud-services.git" path="meta-cloud-services" remote="yocto" revision="master"/>
-
-  <remove-project name="meta-java.git" />
-  <project name="meta-java.git" path="meta-java" remote="yocto" revision="master"/>
 
   <remove-project name="foundriesio/meta-lmp.git" />
   <project name="foundriesio/meta-lmp.git" path="meta-lmp" remote="github" revision="master"/>
 
-  <remove-project name="meta-raspberrypi.git" />
-  <project name="meta-raspberrypi.git" path="meta-raspberrypi" remote="yocto" revision="master"/>
-
   <remove-project name="riscv/meta-riscv.git" />
   <project name="riscv/meta-riscv.git" path="meta-riscv" remote="github" revision="master"/>
-
-  <remove-project name="linux-sunxi/meta-sunxi.git" />
-  <project name="linux-sunxi/meta-sunxi.git" path="meta-sunxi" remote="github" revision="master"/>
 
   <remove-project name="igalia/meta-webkit.git" />
   <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github" revision="master"/>

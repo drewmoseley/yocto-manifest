@@ -9,9 +9,6 @@
   <remove-project name="meta-toradex-bsp-common.git" />
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="dunfell-5.x.y" remote="toradex" />
 
-  <remove-project name="meta-rust/meta-rust.git" />
-  <project name="meta-rust/meta-rust.git" path="meta-rust" revision="test-dunfell" remote="github" />
-
   <remove-project name="meta-maker.git" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
 
@@ -31,7 +28,7 @@
   <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" revision="dunfell" />
 
   <remove-project name="linux-sunxi/meta-sunxi.git" />
-  <project name="linux-sunxi/meta-sunxi.git" path="meta-sunxi" remote="github" revision="dunfell" />
+  <project name="linux-sunxi/meta-sunxi.git" path="meta-sunxi" remote="github" revision="hardknott" />
 
   <remove-project name="advancedtelematic/meta-updater" />
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="master"/>

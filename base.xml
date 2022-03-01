@@ -69,4 +69,6 @@
   <project name="foundriesio/meta-lmp.git" path="meta-lmp" remote="github"/>
 
   <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github"/>
+
+  <project name="meta-zephyr.git" path="meta-zephyr" remote="yocto"/>
 </manifest>

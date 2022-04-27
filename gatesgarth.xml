@@ -13,7 +13,7 @@
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
 
   <remove-project name="meta-boot2qt.git" />
-  <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="6.2.2"/>
+  <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="6.2.4"/>
 
   <remove-project name="toradex/meta-toradex-torizon.git" />
   <project name="toradex/meta-toradex-torizon.git" path="meta-toradex-torizon" remote="github" revision="dunfell-5.x.y" />

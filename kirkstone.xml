@@ -44,33 +44,9 @@
 
 
 
-  <remove-project name="kraj/meta-clang.git" />
-  <project name="kraj/meta-clang.git" path="meta-clang" remote="github" revision="master" />
-
   <remove-project name="intel-iot-devkit/meta-iot-cloud.git" />
   <project name="intel-iot-devkit/meta-iot-cloud.git" path="meta-iot-cloud" remote="github" revision="master" />
 
   <remove-project name="meta-cloud-services.git" />
   <project name="meta-cloud-services.git" path="meta-cloud-services" remote="yocto" revision="master" />
-
-  <remove-project name="meta-intel.git" />
-  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="master" />
-
-  <remove-project name="meta-freescale.git" />
-  <project name="meta-freescale.git" path="meta-freescale" remote="yocto" revision="master" />
-
-  ;<remove-project name="meta-freescale-distro.git" />
-  ;<project name="meta-freescale-distro.git" path="meta-freescale-distro" remote="freescale" revision="master"/>
-
-  ;<remove-project name="meta-freescale-3rdparty.git" />
-  ;<project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale" revision="master"/>
-
-  <remove-project name="STMicroelectronics/meta-st-stm32mp" />
-  <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github" revision="honister" />
-
-  <remove-project name="sbabic/meta-swupdate.git" />
-  <project name="sbabic/meta-swupdate.git" path="meta-swupdate" remote="github" revision="master" />
-
-  <remove-project name="meta-virtualization.git" />
-  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="master" />
 </manifest>

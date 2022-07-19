@@ -71,4 +71,5 @@
   <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github"/>
 
   <project name="meta-zephyr.git" path="meta-zephyr" remote="yocto"/>
+  <project name="aehs29/meta-freertos.git" path="meta-freertos" remote="github"/>
 </manifest>

@@ -36,7 +36,7 @@
   <project name="meta-rust/meta-rust.git" path="meta-rust" remote="github" />
 
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" />
-  <project name="meta-qt6.git" path="meta-qt6" remote="qt" revision="refs/tags/v6.2.4" />
+  <project name="meta-qt6.git" path="meta-qt6" remote="qt" revision="refs/tags/v6.2.5-lts" />
   <project name="bmwcarit/meta-ros.git" path="meta-ros" remote="github" revision="master" />
   <project name="kraj/meta-openwrt.git" path="meta-openwrt" remote="github" revision="master" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" />
@@ -52,7 +52,7 @@
   <project name="meta-dmoseley-private.git" path="meta-dmoseley-private" remote="drewmoseley-private"/>
   <project name="meta-dmoseley-private-local.git" path="meta-dmoseley-private-local" remote="drewmoseley-private"/>
 
-  <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt"/>
+  <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="refs/tags/v6.2.5-lts"/>
 
   <project name="sbabic/meta-swupdate.git" path="meta-swupdate" remote="github"/>
 

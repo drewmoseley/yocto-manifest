@@ -33,19 +33,8 @@
   <remove-project name="advancedtelematic/meta-updater" />
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="master"/>
 
-  <remove-project name="foundriesio/meta-lmp.git" />
-  <project name="foundriesio/meta-lmp.git" path="meta-lmp" remote="github" revision="master"/>
-
   <remove-project name="igalia/meta-webkit.git" />
   <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github" revision="master"/>
-
-
-
-  <remove-project name="intel-iot-devkit/meta-iot-cloud.git" />
-  <project name="intel-iot-devkit/meta-iot-cloud.git" path="meta-iot-cloud" remote="github" revision="master" />
-
-  <remove-project name="meta-cloud-services.git" />
-  <project name="meta-cloud-services.git" path="meta-cloud-services" remote="yocto" revision="master" />
 
   <remove-project name="aehs29/meta-freertos.git" />
   <project name="aehs29/meta-freertos.git" path="meta-freertos" remote="github" revision="master" />

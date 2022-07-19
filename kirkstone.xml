@@ -49,4 +49,7 @@
 
   <remove-project name="meta-cloud-services.git" />
   <project name="meta-cloud-services.git" path="meta-cloud-services" remote="yocto" revision="master" />
+
+  <remove-project name="aehs29/meta-freertos.git" />
+  <project name="aehs29/meta-freertos.git" path="meta-freertos" remote="github" revision="master" />
 </manifest>

@@ -23,4 +23,7 @@
 
   <remove-project name="meta-toradex-distro.git" />
   <project name="meta-toradex-distro.git" path="meta-toradex-distro" remote="tdx" revision="dunfell-5.x.y" />
+
+  <remove-project name="kraj/meta-clang.git" />
+  <project name="kraj/meta-clang.git" path="meta-clang" remote="github" revision="dunfell-clang12" />
 </manifest>

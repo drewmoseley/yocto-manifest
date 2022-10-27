@@ -4,28 +4,25 @@
   <default revision="kirkstone" />
 
   <remove-project name="meta-toradex-nxp.git" />
-  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="dunfell-5.x.y" remote="toradex" />
+  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="kirkstone-6.x.y" remote="toradex" />
 
   <remove-project name="meta-toradex-bsp-common.git" />
-  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="dunfell-5.x.y" remote="toradex" />
+  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="kirkstone-6.x.y" remote="toradex" />
 
   <remove-project name="meta-rust/meta-rust.git" />
   <project name="meta-rust/meta-rust.git" path="meta-rust" revision="master" remote="github" />
 
-  <remove-project name="meta-maker.git" />
+c  <remove-project name="meta-maker.git" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
 
   <remove-project name="jiazhang0/meta-secure-core" />
   <project name="jiazhang0/meta-secure-core" path="meta-secure-core" remote="github" revision="master"/>
 
   <remove-project name="toradex/meta-toradex-torizon.git" />
-  <project name="toradex/meta-toradex-torizon.git" path="meta-toradex-torizon" remote="github" revision="dunfell-5.x.y" />
+  <project name="toradex/meta-toradex-torizon.git" path="meta-toradex-torizon" remote="github" revision="kirkstone-6.x.y" />
 
   <remove-project name="meta-toradex-distro.git" />
-  <project name="meta-toradex-distro.git" path="meta-toradex-distro" remote="tdx" revision="dunfell-5.x.y" />
-
-  <remove-project name="meta-mender.git" />
-  <project name="TheYoctoJester/meta-mender.git" path="meta-mender" remote="github" revision="master-next" />
+  <project name="meta-toradex-distro.git" path="meta-toradex-distro" remote="tdx" revision="kirkstone-6.x.y" />
 
   <remove-project name="meta-mender-community.git" />
   <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" revision="kirkstone-next" />
@@ -35,7 +32,4 @@
 
   <remove-project name="igalia/meta-webkit.git" />
   <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github" revision="master"/>
-
-  <remove-project name="aehs29/meta-freertos.git" />
-  <project name="aehs29/meta-freertos.git" path="meta-freertos" remote="github" revision="master" />
 </manifest>

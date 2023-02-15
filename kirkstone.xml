@@ -18,12 +18,6 @@
   <remove-project name="meta-toradex-distro.git" />
   <project name="meta-toradex-distro.git" path="meta-toradex-distro" remote="tdx" revision="kirkstone-6.x.y" />
 
-  <remove-project name="meta-mender-community.git" />
-  <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" revision="kirkstone-next" />
-
   <remove-project name="advancedtelematic/meta-updater" />
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="master"/>
-
-  <remove-project name="igalia/meta-webkit.git" />
-  <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github" revision="master"/>
 </manifest>

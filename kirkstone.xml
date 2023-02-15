@@ -12,9 +12,6 @@
   <remove-project name="meta-maker.git" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
 
-  <remove-project name="jiazhang0/meta-secure-core" />
-  <project name="jiazhang0/meta-secure-core" path="meta-secure-core" remote="github" revision="master"/>
-
   <remove-project name="toradex/meta-toradex-torizon.git" />
   <project name="toradex/meta-toradex-torizon.git" path="meta-toradex-torizon" remote="github" revision="kirkstone-6.x.y" />
 

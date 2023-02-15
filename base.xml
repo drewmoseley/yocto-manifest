@@ -25,22 +25,14 @@
 
   <project name="meta-intel.git" path="meta-intel" remote="yocto" />
 
-  <project name="meta-python2.git" path="meta-python2" remote="oe" />
-
   <project name="linux-sunxi/meta-sunxi.git" path="meta-sunxi" remote="github" />
 
   <project name="riscv/meta-riscv.git" path="meta-riscv" remote="github" />
 
   <project name="meta-mender.git" path="meta-mender" remote="mender" />
 
-  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" />
   <project name="meta-qt6.git" path="meta-qt6" remote="qt" revision="refs/tags/v6.2.5-lts" />
-  <project name="bmwcarit/meta-ros.git" path="meta-ros" remote="github" revision="master" />
   <project name="kraj/meta-openwrt.git" path="meta-openwrt" remote="github" revision="master" />
-  <project name="meta-maker.git" path="meta-maker" remote="yocto" />
-  <project name="meta-java.git" path="meta-java" remote="yocto" />
-  <project name="intel-iot-devkit/meta-iot-cloud.git" path="meta-iot-cloud" remote="github" />
-  <project name="meta-cloud-services.git" path="meta-cloud-services" remote="yocto" />
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" />
   <project name="meta-security.git" path="meta-security" remote="yocto" />
   <project name="meta-mingw.git" path="meta-mingw" remote="yocto" />
@@ -50,19 +42,11 @@
   <project name="meta-dmoseley-private.git" path="meta-dmoseley-private" remote="drewmoseley-private"/>
   <project name="meta-dmoseley-private-local.git" path="meta-dmoseley-private-local" remote="drewmoseley-private"/>
 
-  <project name="meta-boot2qt.git" path="meta-boot2qt" remote="qt" revision="refs/tags/v6.2.5-lts"/>
-
-  <project name="sbabic/meta-swupdate.git" path="meta-swupdate" remote="github"/>
-
   <project name="OSSystems/meta-browser.git" path="meta-browser" remote="github" revision="master"/>
-  <project name="kraj/meta-clang.git" path="meta-clang" remote="github" />
 
   <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github"/>
-  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github"/>
 
-  <project name="toradex/meta-toradex-torizon.git" path="meta-toradex-torizon" remote="github"/>
   <project name="meta-toradex-distro.git" path="meta-toradex-distro" remote="tdx"/>
-  <project name="foundriesio/meta-lmp.git" path="meta-lmp" remote="github"/>
 
   <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github"/>
 

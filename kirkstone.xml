@@ -9,15 +9,6 @@
   <remove-project name="meta-toradex-bsp-common.git" />
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="kirkstone-6.x.y" remote="toradex" />
 
-  <remove-project name="meta-maker.git" />
-  <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
-
-  <remove-project name="toradex/meta-toradex-torizon.git" />
-  <project name="toradex/meta-toradex-torizon.git" path="meta-toradex-torizon" remote="github" revision="kirkstone-6.x.y" />
-
   <remove-project name="meta-toradex-distro.git" />
   <project name="meta-toradex-distro.git" path="meta-toradex-distro" remote="tdx" revision="kirkstone-6.x.y" />
-
-  <remove-project name="advancedtelematic/meta-updater" />
-  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="master"/>
 </manifest>

@@ -9,10 +9,7 @@
   <remove-project name="meta-toradex-bsp-common.git" />
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="kirkstone-6.x.y" remote="toradex" />
 
-  <remove-project name="meta-rust/meta-rust.git" />
-  <project name="meta-rust/meta-rust.git" path="meta-rust" revision="master" remote="github" />
-
-c  <remove-project name="meta-maker.git" />
+  <remove-project name="meta-maker.git" />
   <project name="meta-maker.git" path="meta-maker" remote="yocto" revision="thud"/>
 
   <remove-project name="jiazhang0/meta-secure-core" />

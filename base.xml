@@ -31,7 +31,7 @@
 
   <project name="meta-mender.git" path="meta-mender" remote="mender" />
 
-  <project name="meta-qt6.git" path="meta-qt6" remote="qt" revision="refs/tags/v6.2.5-lts" />
+  <project name="meta-qt6.git" path="meta-qt6" remote="qt" revision="refs/tags/v6.2.7-lts" />
   <project name="kraj/meta-openwrt.git" path="meta-openwrt" remote="github" revision="master" />
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" />
   <project name="meta-security.git" path="meta-security" remote="yocto" />

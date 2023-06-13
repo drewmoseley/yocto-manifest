@@ -6,49 +6,24 @@
   <remote fetch="git://bitbucket.org/drewmoseley" name="drewmoseley-private"/>
   <remote fetch="git://github.com/drewmoseley" name="drewmoseley"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
-  <remote fetch="git://git.toradex.com/" name="toradex"/>
-  <remote fetch="git://github.com/mendersoftware" name="mender"/>
   <remote fetch="git://code.qt.io/yocto/" name="qt"/>
-  <remote fetch="https://source.codeaurora.org/external/" name="codeaurora"/>
-  <remote fetch="git://git.toradex.com" name="tdx"/>
 
   <project name="openembedded/meta-openembedded.git" path="meta-openembedded" remote="github"/>
   <project name="poky.git" path="poky" remote="yocto" />
 
   <project name="meta-raspberrypi.git" path="meta-raspberrypi" remote="yocto" />
-
-  <project name="meta-freescale.git" path="meta-freescale" remote="yocto"/>
-  <project name="meta-freescale-distro.git" path="meta-freescale-distro" remote="freescale"/>
-  <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale"/>
-  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" remote="toradex"/>
-  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" remote="toradex"/>
-
   <project name="meta-intel.git" path="meta-intel" remote="yocto" />
-
   <project name="linux-sunxi/meta-sunxi.git" path="meta-sunxi" remote="github" />
-
   <project name="riscv/meta-riscv.git" path="meta-riscv" remote="github" />
+  <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github"/>
 
-  <project name="meta-mender.git" path="meta-mender" remote="mender" />
-
-  <project name="meta-qt6.git" path="meta-qt6" remote="qt" revision="refs/tags/v6.2.7-lts" />
-  <project name="kraj/meta-openwrt.git" path="meta-openwrt" remote="github" revision="master" />
-  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" />
-  <project name="meta-security.git" path="meta-security" remote="yocto" />
-  <project name="meta-mingw.git" path="meta-mingw" remote="yocto" />
-
-  <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" />
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>
   <project name="meta-dmoseley-private.git" path="meta-dmoseley-private" remote="drewmoseley-private"/>
   <project name="meta-dmoseley-private-local.git" path="meta-dmoseley-private-local" remote="drewmoseley-private"/>
 
+  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" />
   <project name="OSSystems/meta-browser.git" path="meta-browser" remote="github" revision="master"/>
   <project name="kraj/meta-clang.git" path="meta-clang" remote="github" />
-
-  <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github"/>
-
-  <project name="meta-toradex-distro.git" path="meta-toradex-distro" remote="tdx"/>
-
   <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github"/>
 
   <project name="meta-zephyr.git" path="meta-zephyr" remote="yocto"/>

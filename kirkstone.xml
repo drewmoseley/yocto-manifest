@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="base.xml" />
+  <remote fetch="git://github.com/mendersoftware" name="mender"/>
+  <remote fetch="git://git.toradex.com/" name="toradex"/>
+
   <default revision="kirkstone" />
 
-  <remove-project name="meta-toradex-nxp.git" />
+  <project name="meta-freescale.git" path="meta-freescale" remote="yocto"/>
+  <project name="meta-freescale-distro.git" path="meta-freescale-distro" remote="freescale"/>
+  <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale"/>
   <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="kirkstone-6.x.y" remote="toradex" />
-
-  <remove-project name="meta-toradex-bsp-common.git" />
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="kirkstone-6.x.y" remote="toradex" />
+  <project name="meta-toradex-distro.git" path="meta-toradex-distro" remote="toradex" revision="kirkstone-6.x.y" />
 
-  <remove-project name="meta-toradex-distro.git" />
-  <project name="meta-toradex-distro.git" path="meta-toradex-distro" remote="tdx" revision="kirkstone-6.x.y" />
+  <project name="meta-mender.git" path="meta-mender" remote="mender" />
+  <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" />
 </manifest>

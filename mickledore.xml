@@ -2,4 +2,10 @@
 <manifest>
   <include name="base.xml" />
   <default revision="mickledore" />
+
+  <remove-project name="igalia/meta-webkit.git" />
+  <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github" revision="main"/>
+
+  <remove-project name="riscv/meta-riscv.git" />
+  <project name="riscv/meta-riscv.git" path="meta-riscv" remote="github" revision="master"/>
 </manifest>

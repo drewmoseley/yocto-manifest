@@ -6,9 +6,6 @@
 
   <default revision="kirkstone" />
 
-  <project name="meta-freescale.git" path="meta-freescale" remote="yocto"/>
-  <project name="meta-freescale-distro.git" path="meta-freescale-distro" remote="freescale"/>
-  <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale"/>
   <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="kirkstone-6.x.y" remote="toradex" />
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="kirkstone-6.x.y" remote="toradex" />
   <project name="meta-toradex-distro.git" path="meta-toradex-distro" remote="toradex" revision="kirkstone-6.x.y" />

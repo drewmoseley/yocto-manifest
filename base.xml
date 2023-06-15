@@ -17,6 +17,10 @@
   <project name="riscv/meta-riscv.git" path="meta-riscv" remote="github" />
   <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github"/>
 
+  <project name="meta-freescale.git" path="meta-freescale" remote="yocto"/>
+  <project name="meta-freescale-distro.git" path="meta-freescale-distro" remote="freescale"/>
+  <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale"/>
+
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>
   <project name="meta-dmoseley-private.git" path="meta-dmoseley-private" remote="drewmoseley-private"/>
   <project name="meta-dmoseley-private-local.git" path="meta-dmoseley-private-local" remote="drewmoseley-private"/>

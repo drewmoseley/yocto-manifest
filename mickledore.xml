@@ -8,4 +8,13 @@
 
   <remove-project name="riscv/meta-riscv.git" />
   <project name="riscv/meta-riscv.git" path="meta-riscv" remote="github" revision="master"/>
+
+  <remove-project name="meta-freescale.git" />
+  <project name="meta-freescale.git" path="meta-freescale" remote="yocto" revision="master"/>
+  
+  <remove-project name="meta-freescale-distro.git" />
+  <project name="meta-freescale-distro.git" path="meta-freescale-distro" remote="freescale" revision="master"/>
+  
+  <remove-project name="meta-freescale-3rdparty.git" />
+  <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale" revision="master"/>
 </manifest>

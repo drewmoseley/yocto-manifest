@@ -2,9 +2,9 @@
 <manifest>
   <remote fetch="git://git.yoctoproject.org/" name="yocto" />
   <remote fetch="git://git.openembedded.org/" name="oe" />
-  <remote fetch="git://github.com/" name="github" />
-  <remote fetch="git://bitbucket.org/drewmoseley" name="drewmoseley-private"/>
-  <remote fetch="git://github.com/drewmoseley" name="drewmoseley"/>
+  <remote fetch="ssh://git@github.com/" name="github" />
+  <remote fetch="ssh://git@bitbucket.org/drewmoseley" name="drewmoseley-private"/>
+  <remote fetch="ssh://git@github.com/drewmoseley" name="drewmoseley"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="git://code.qt.io/yocto/" name="qt"/>
 

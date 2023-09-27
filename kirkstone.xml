@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <include name="base.xml" />
-  <remote fetch="git://github.com/mendersoftware" name="mender"/>
+  <remote fetch="ssh://git@github.com/mendersoftware" name="mender"/>
   <remote fetch="git://git.toradex.com/" name="toradex"/>
 
   <default revision="kirkstone" />

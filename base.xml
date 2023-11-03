@@ -3,7 +3,6 @@
   <remote fetch="git://git.yoctoproject.org/" name="yocto" />
   <remote fetch="git://git.openembedded.org/" name="oe" />
   <remote fetch="ssh://git@github.com/" name="github" />
-  <remote fetch="ssh://git@bitbucket.org/drewmoseley" name="drewmoseley-private"/>
   <remote fetch="ssh://git@github.com/drewmoseley" name="drewmoseley"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="git://code.qt.io/yocto/" name="qt"/>
@@ -22,7 +21,6 @@
   <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale"/>
 
   <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>
-  <project name="meta-dmoseley-private.git" path="meta-dmoseley-private" remote="drewmoseley-private"/>
 
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" />
   <project name="OSSystems/meta-browser.git" path="meta-browser" remote="github" revision="master"/>

@@ -3,6 +3,9 @@
   <include name="base.xml" />
   <default revision="mickledore" />
 
+  <remove-project name="meta-ti.git" />
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="master"/>
+
   <remove-project name="igalia/meta-webkit.git" />
   <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github" revision="main"/>
 

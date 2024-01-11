@@ -16,6 +16,9 @@
   <project name="riscv/meta-riscv.git" path="meta-riscv" remote="github" />
   <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github"/>
 
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" />
+  <project name="meta-arm.git" path="meta-arm" remote="yocto" />
+
   <project name="meta-freescale.git" path="meta-freescale" remote="yocto"/>
   <project name="meta-freescale-distro.git" path="meta-freescale-distro" remote="freescale"/>
   <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale"/>

@@ -6,6 +6,7 @@
 
   <default revision="kirkstone" />
 
+  <project name="meta-toradex-ti.git" path="meta-toradex-ti" revision="kirkstone-6.x.y" remote="toradex" />
   <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="kirkstone-6.x.y" remote="toradex" />
   <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="kirkstone-6.x.y" remote="toradex" />
   <project name="meta-toradex-distro.git" path="meta-toradex-distro" remote="toradex" revision="kirkstone-6.x.y" />

@@ -32,4 +32,8 @@
 
   <project name="meta-zephyr.git" path="meta-zephyr" remote="yocto"/>
   <project name="aehs29/meta-freertos.git" path="meta-freertos" remote="github"/>
+
+  <project name="sbabic/meta-swupdate.git" path="meta-swupdate" remote="github"/>
+  <project name="sbabic/meta-swupdate-boards.git" path="meta-swupdate-boards" remote="github"/>
+  <project name="rauc/meta-rauc.git" path="meta-rauc" remote="github"/>
 </manifest>

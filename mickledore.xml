@@ -20,4 +20,7 @@
   
   <remove-project name="meta-freescale-3rdparty.git" />
   <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale" revision="master"/>
+
+  <remove-project name="sbabic/meta-swupdate-boards.git" />
+  <project name="sbabic/meta-swupdate-boards.git" path="meta-swupdate-boards" remote="github" revision="master"/>
 </manifest>

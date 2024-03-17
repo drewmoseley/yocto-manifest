@@ -23,4 +23,7 @@
 
   <remove-project name="sbabic/meta-swupdate-boards.git" />
   <project name="sbabic/meta-swupdate-boards.git" path="meta-swupdate-boards" remote="github" revision="master"/>
+
+  <remove-project name="rauc/meta-rauc-community.git" />
+  <project name="rauc/meta-rauc-community.git" path="meta-rauc-community" remote="github" revision="master"/>
 </manifest>

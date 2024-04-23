@@ -2,7 +2,7 @@
 <manifest>
   <include name="base.xml" />
   <default revision="scarthgap" />
-  <project name="meta-lts-mixins.git" path="meta-lts-mixins" remote="yocto" revision="scarthgap/u-boot"/>
+  <project name="meta-lts-mixins.git" path="lts-scarthgap-uboot-mixin" remote="yocto" revision="scarthgap/u-boot"/>
   
   <remove-project name="meta-arm.git" />
   <project name="meta-arm.git" path="meta-arm" remote="yocto" revision="master"/>

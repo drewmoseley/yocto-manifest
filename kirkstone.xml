@@ -13,4 +13,6 @@
 
   <project name="meta-mender.git" path="meta-mender" remote="mender" />
   <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" />
+
+  <project name="meta-lts-mixins" path="lts-rust-mixin" remote="yocto" revision="kirkstone/rust-1.68" />
 </manifest>

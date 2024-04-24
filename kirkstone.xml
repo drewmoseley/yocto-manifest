@@ -14,5 +14,9 @@
   <project name="meta-mender.git" path="meta-mender" remote="mender" />
   <project name="meta-mender-community.git" path="meta-mender-community" remote="mender" />
 
+  <!-- This is the latest version that compiles under kirkstone -->
+  <remove-project name="OSSystems/meta-browser.git" />
+  <project name="OSSystems/meta-browser.git" path="meta-browser" remote="github" revision="c76bc3a68356bf11daad4659b5a787cd7714b2a9"/>
+
   <project name="meta-lts-mixins" path="lts-rust-mixin" remote="yocto" revision="kirkstone/rust-1.68" />
 </manifest>

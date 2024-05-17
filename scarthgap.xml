@@ -4,9 +4,6 @@
   <default revision="scarthgap" />
   <project name="meta-lts-mixins.git" path="lts-scarthgap-uboot-mixin" remote="yocto" revision="scarthgap/u-boot"/>
   
-  <remove-project name="meta-arm.git" />
-  <project name="meta-arm.git" path="meta-arm" remote="yocto" revision="master"/>
-
   <remove-project name="igalia/meta-webkit.git" />
   <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github" revision="master"/>
 
@@ -22,21 +19,6 @@
   <remove-project name="rauc/meta-rauc-community.git" />
   <project name="rauc/meta-rauc-community.git" path="meta-rauc-community" remote="github" revision="master"/>
 
-  <remove-project name="kraj/meta-clang.git" />
-  <project name="kraj/meta-clang.git" path="meta-clang" remote="github" revision="master"/>
-
   <remove-project name="meta-raspberrypi.git" />
   <project name="meta-raspberrypi.git" path="meta-raspberrypi" remote="yocto" revision="master"/>
-
-  <remove-project name="meta-zephyr.git" />
-  <project name="meta-zephyr.git" path="meta-zephyr" remote="yocto" revision="master"/>
-
-  <remove-project name="meta-freescale-distro.git" />
-  <project name="meta-freescale-distro.git" path="meta-freescale-distro" remote="freescale" revision="master"/>
-
-  <remove-project name="linux-sunxi/meta-sunxi.git" />
-  <project name="linux-sunxi/meta-sunxi.git" path="meta-sunxi" remote="github" revision="master"/>
-
-  <remove-project name="STMicroelectronics/meta-st-stm32mp" />
-  <project name="STMicroelectronics/meta-st-stm32mp" path="meta-st-stm32mp" remote="github" revision="master"/>
 </manifest>

@@ -2,7 +2,6 @@
 <manifest>
   <include name="base.xml" />
   <default revision="scarthgap" />
-  <project name="meta-lts-mixins.git" path="lts-scarthgap-uboot-mixin" remote="yocto" revision="scarthgap/u-boot"/>
   
   <remove-project name="igalia/meta-webkit.git" />
   <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github" revision="master"/>

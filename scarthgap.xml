@@ -9,15 +9,6 @@
   <remove-project name="aehs29/meta-freertos.git" />
   <project name="aehs29/meta-freertos.git" path="meta-freertos" remote="github" revision="master"/>
 
-  <remove-project name="riscv/meta-riscv.git" />
-  <project name="riscv/meta-riscv.git" path="meta-riscv" remote="github" revision="master"/>
-
   <remove-project name="sbabic/meta-swupdate-boards.git" />
   <project name="sbabic/meta-swupdate-boards.git" path="meta-swupdate-boards" remote="github" revision="master"/>
-
-  <remove-project name="rauc/meta-rauc-community.git" />
-  <project name="rauc/meta-rauc-community.git" path="meta-rauc-community" remote="github" revision="master"/>
-
-  <remove-project name="meta-raspberrypi.git" />
-  <project name="meta-raspberrypi.git" path="meta-raspberrypi" remote="yocto" revision="master"/>
 </manifest>

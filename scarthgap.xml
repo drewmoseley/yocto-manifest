@@ -3,11 +3,6 @@
   <include name="base.xml" />
   <remote fetch="git://git.toradex.com/" name="toradex"/>
   <default revision="scarthgap" />
-
-  <project name="meta-toradex-ti.git" path="meta-toradex-ti" revision="scarthgap-7.x.y" remote="toradex" />
-  <project name="meta-toradex-nxp.git" path="meta-toradex-nxp" revision="scarthgap-7.x.y" remote="toradex" />
-  <project name="meta-toradex-bsp-common.git" path="meta-toradex-bsp-common" revision="scarthgap-7.x.y" remote="toradex" />
-  <project name="meta-toradex-distro.git" path="meta-toradex-distro" remote="toradex" revision="scarthgap-7.x.y" />
   
   <remove-project name="igalia/meta-webkit.git" />
   <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github" revision="master"/>

@@ -10,9 +10,6 @@
   <remove-project name="aehs29/meta-freertos.git" />
   <project name="aehs29/meta-freertos.git" path="meta-freertos" remote="github" revision="master"/>
 
-  <remove-project name="sbabic/meta-swupdate-boards.git" />
-  <project name="sbabic/meta-swupdate-boards.git" path="meta-swupdate-boards" remote="github" revision="master"/>
-
   <project name="meta-lts-mixins" path="lts-mixin-scarthgap-uboot" remote="yocto" revision="scarthgap/u-boot" />
   <project name="meta-lts-mixins" path="lts-mixin-scarthgap-rust" remote="yocto" revision="scarthgap/rust" />
 </manifest>

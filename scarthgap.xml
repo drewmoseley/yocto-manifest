@@ -4,9 +4,6 @@
   <remote fetch="git://git.toradex.com/" name="toradex"/>
   <default revision="scarthgap" />
   
-  <remove-project name="igalia/meta-webkit.git" />
-  <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github" revision="master"/>
-
   <remove-project name="aehs29/meta-freertos.git" />
   <project name="aehs29/meta-freertos.git" path="meta-freertos" remote="github" revision="master"/>
 

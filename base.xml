@@ -23,7 +23,9 @@
   <project name="meta-freescale-distro.git" path="meta-freescale-distro" remote="freescale"/>
   <project name="meta-freescale-3rdparty.git" path="meta-freescale-3rdparty" remote="freescale"/>
 
-  <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley"/>
+  <project name="meta-dmoseley-local-config.git" path="meta-dmoseley-local-config" remote="drewmoseley">
+    <linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
 
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" />
   <project name="OSSystems/meta-browser.git" path="meta-browser" remote="github"/>

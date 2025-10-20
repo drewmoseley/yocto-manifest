@@ -7,6 +7,8 @@
   <remove-project name="aehs29/meta-freertos.git" />
   <project name="aehs29/meta-freertos.git" path="meta-freertos" remote="github" revision="master"/>
 
+  <project name="kraj/meta-clang.git" path="meta-clang" remote="github" />
+
   <project name="meta-lts-mixins" path="lts-mixin-scarthgap-uboot" remote="yocto" revision="scarthgap/u-boot" />
   <project name="meta-lts-mixins" path="lts-mixin-scarthgap-rust" remote="yocto" revision="scarthgap/rust" />
 </manifest>

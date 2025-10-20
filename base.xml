@@ -29,7 +29,6 @@
 
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" />
   <project name="OSSystems/meta-browser.git" path="meta-browser" remote="github"/>
-  <project name="kraj/meta-clang.git" path="meta-clang" remote="github" />
   <project name="igalia/meta-webkit.git" path="meta-webkit" remote="github"/>
 
   <project name="meta-zephyr.git" path="meta-zephyr" remote="yocto"/>

@@ -10,5 +10,5 @@
   <project name="kraj/meta-clang.git" path="meta-clang" remote="github" />
 
   <project name="meta-lts-mixins" path="lts-mixin-scarthgap-uboot" remote="yocto" revision="scarthgap/u-boot" />
-  <project name="meta-lts-mixins" path="lts-mixin-scarthgap-rust" remote="yocto" revision="scarthgap/rust" />
+  <project name="meta-lts-mixins" path="lts-mixin-scarthgap-rust" remote="yocto" revision="8538a40240e45bb3e4f05856d03c7976d45fa86e" />
 </manifest>
